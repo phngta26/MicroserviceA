@@ -24,3 +24,5 @@ Response Format:
   "percentage": 75,
   "job_position": "Pharmacist 1 (full-time, day shift)"
 }
+
+![UML](UML.jpg)
