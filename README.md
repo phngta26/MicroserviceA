@@ -12,7 +12,7 @@ def get_matching_percentage(keywords):
     response = requests.post(endpoint, json={'keywords': keywords})
     return response.json()
 
-###Sample usage
+### Sample usage
 keywords = ['pharmacy', 'radiology']
 response = get_matching_percentage(keywords)
 print(response)
